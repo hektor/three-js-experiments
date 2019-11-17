@@ -1,1 +1,1 @@
-# three-js-experiments
+# Three.js experiments

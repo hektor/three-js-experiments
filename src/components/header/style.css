@@ -1,0 +1,28 @@
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 3rem;
+	background: #000;
+}
+
+.header h1 {
+	float: left;
+	padding: 0 1rem;
+	font-size: 1rem;
+	color: #ccc;
+}
+
+.header nav {
+	float: right;
+}
+
+.header nav a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.header nav a.active {
+	color: #fff
+}
