@@ -2,8 +2,22 @@
   "env": {
     "test": {
       "presets": [
-        ["preact-cli/babel", { "modules": "commonjs" }]
+        [
+          "preact-cli/babel",
+          {
+            "modules": "commonjs"
+          }
+        ]
       ]
     }
-  }
+  },
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "h",
+        "pragmaFrag": "Fragment",
+      }
+    ]
+  ]
 }
